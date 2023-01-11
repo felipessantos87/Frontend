@@ -1,0 +1,21 @@
+multiply;i;i < num2;multiply1 += add(0, num1);return
+;0;true;0+4=4;-
+;1;true;4+4=8;-
+;2;true;8+4=12;-
+;5;true;20+4=24;-
+;6;false;-;24
+;;;;
+power;i;i < num2;power1 = multiply(num1,power1);return
+;0;true;1+1+1=3;-
+;1;true;3+3+3=9;-
+;2;true;9+9+9=27;-
+;3;true;27+27+27=81;-
+;4;false;-;81
+;;;;
+factorial;i;i < num1;factorial1 = multiply(factorial1, i);return
+;1;true;1;-
+;2;true;1+1=2;-
+;3;true;2+2+2=6;-
+;4;true;6+6+6=24;-
+;5;true;24+24+24+24+24=120;-
+;6;false;;120

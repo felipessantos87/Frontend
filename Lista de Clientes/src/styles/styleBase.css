@@ -1,0 +1,119 @@
+header{
+    background-color: black;
+    padding: 15px;
+    border: solid 1px white;
+}
+
+header ul {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+main h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3rem;  
+}
+
+ul{
+    display: flex;
+    width: 80%;
+    max-width: 1300px;
+    margin: 50px auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    color:white;
+}
+
+ul.container li.card{
+    background-color: black;
+    border: solid 1px whitesmoke;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ul.container li.card h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    color:white;
+    background-color: red;
+}
+
+ul.container li.card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 15px 0;
+    color:white;
+}
+
+form{
+    width: 350px;
+    border: solid 1px whitesmoke;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 30px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+form h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+form input{
+    padding: 10px 15px;
+    width: 80%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: solid 1px;
+    outline: none;
+    color:#adb5bd;
+}
+
+form button{
+    background-color: white;
+    border: none;
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+
+form select{
+    width: 80%;
+    outline: none;
+    cursor: pointer;
+}
+
+.search{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pokémon Cards</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>025</h2>
+                <img src="./img/Pikachu.png">
+                <h3>Pikachu</h3>
+                <p>Pokémon do tipo elétrico, Ele evolui de Pichu quando nivelado com alta amizade e evolui para Raichu quando exposto a uma Thunder Stone.</p>
+                <a href="#">Escolher</a>    
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h2>004</h2>
+                <img src="./img/Charmander.png">
+                <h3>Charmander</h3>
+                <p> Pokémon do tipo Fogo, Ele evolui para Charmeleon a partir do nível 16, que evolui para Charizard a partir do nível 36.</p>
+                <a href="#">Escolher</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h2>007</h2>
+                <img src="./img/Squirtle.png">
+                <h3>Squirtle</h3>
+                <p> Pokémon do tipo Água, Ele evolui para Wartortle a partir do nível 16, que evolui para Blastoise a partir do nível 36.</p>
+                <a href="#">Escolher</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card") , {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+</html>

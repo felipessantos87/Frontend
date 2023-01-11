@@ -1,0 +1,213 @@
+body{
+    width: 100%;
+    background: #E0E0E0;
+}
+header {
+    min-width: 100%;
+    height: 80px;
+    background-color:  #5163D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img__Logo {
+    height: 60%;
+}
+#evidence{}
+#img__evidence{
+    width: 100%;
+}
+#li__evidence{
+    background-color: white;
+    padding: 3rem 0 0 0;
+}
+#div__evidence{
+    padding: 2rem ;
+}
+#titulo__evidence{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 110%;
+    color: #5163D3;
+}
+#resumo__evidence{
+    display: none;
+}
+#categoria__evidence{
+    color: #5163D3;
+    background: #D7E4FB;
+    border-radius: 4px;
+    width: max-content;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+#fonte__evidence{
+    display: none;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+/* Estilização das noticias*/
+#news > li > img{
+    display: none;
+}
+#news > li > div > span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6d6e71;
+}
+#news > li > div > h3{
+    flex-wrap: nowrap;
+    color: #5163D3;
+    background: #D7E4FB;
+    border-radius: 4px;
+    width: max-content;
+    padding: 5px;
+}
+#news > li > div > a{
+    text-decoration: none;   
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #5163D3; 
+}
+#news > li > div > h2{
+    font-family: 'Roboto Slab';
+}
+#news > li > div > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1B1C1E;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+#news > li > div{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 140px;
+}
+#news > li{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 5px rgb(27 28 30 / 10%);
+    border: 1px solid #EEEEEE;
+    margin: 25px 10px;
+    border-radius: 10px;
+}
+
+/* estilização mobile noticia principal*/
+@media (min-width: 600px) {
+    
+#evidence{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+#li__evidence{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 980px;
+    max-height: 360px;
+    padding: 0;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 3px 3px 5px rgba(27, 28, 30, 0.1);
+    border-radius: 4px; 
+}
+#img__evidence{
+   width: 50%;
+   border-radius: 0 4px 4px 0;
+}
+#div__evidence{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#titulo__evidence{}
+#resumo__evidence{
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1B1C1E;
+}
+#fonte__evidence{
+    display: block;
+    color: #8e9197;
+    font-size: 12px;
+}
+}
+
+/*estilização mobile noticias*/
+@media (min-width:600px){
+
+#news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#news > li > img{
+    display: block;
+    min-width: 270px;
+    max-width: 270px;
+    max-height: 180px;
+    border-radius: 4px 0 0 4px;
+}
+#news > li > div > span{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+#news > li > div > h3{
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+#news > li > div > a{    
+}
+#news > li > div > h2{
+    font-size: 16px
+}
+#news > li > div > p{
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+#news> li > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+#news > li{
+    display: flex;
+    justify-content: space-between;
+    min-width: 569px;
+    max-width: 569px;
+    max-height: 180px;
+    min-height: 180px;
+    margin: 30px 0;
+    margin-left: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 3px 3px 5px rgba(27, 28, 30, 0.1);
+    border-radius: 4px;
+}
+}

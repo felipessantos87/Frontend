@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.container {
+    display: flex;
+    width: 1440px;
+    height: 900px;
+    top: -512px;
+    left: -720px;
+    
+}
+.layout_lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #253A5C;
+    width: 248px;
+    height: 900px;    
+}
+
+.layout_lateral .sair {
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 64px;
+    top:805px;
+    margin-bottom: 31px;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.layout_lateral .sair h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    width: 71px;
+    cursor: pointer;
+}
+header {
+    display: flex;
+    height: 164px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #969090;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+header .logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    left: 74px;
+    top:32px;
+    align-content: center;
+}
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: steelblue;
+    width: 1440px;   
+}
+.principal h1 {
+    color: white;
+    font-size: 44px;
+    margin-top: 32px;   
+    margin-bottom: 54px;
+}
+.alinhamento {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 750px;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 118px;
+    margin-right: 118.85px;
+    margin-bottom: 48px;
+}
+div .foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 240px;
+    height: 352px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 48px 0;
+}
+.foto img {
+    border: 4px solid #ECF3FC;
+    width: 95px;
+    height: 105px;
+    border-radius: 50%;
+}

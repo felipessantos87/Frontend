@@ -1,0 +1,20 @@
+h1{
+    height: 200px;
+    width: 200px;
+    border:5px;
+    display:inline-block;
+    font-size: 100%;
+}
+h1.green {
+    background-color: green;
+}
+h1.blue{
+    background-color: blue;
+}
+h1.red{
+    background-color: red;
+}
+h1#block {
+    display: block;
+    margin: 0;
+}

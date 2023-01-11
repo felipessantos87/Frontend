@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    font-family: 'Taviraj', sans-serif;
+}
+html, body, header, ul,ol, li, img, p, h1, h2, h3, nav, div, a, section{
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color:black;
+    color:white
+}
+
+.main-container{   
+    display: flex;
+    margin:0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    min-width: 300px;
+    max-width: 370px;
+    border: 1px dashed white;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    height: 50px;   
+}
+.text-style{
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: red;
+    font-size: 20px;
+    width: 70%;
+    padding-left: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-right: none;
+    background-color: white;
+    flex-shrink: 1;
+}
+.button-style{
+    border:none;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left: none;
+    font-weight: 900;
+    background-color: rgb(180, 4, 4);
+    color: white;
+    flex-shrink: 1;
+}
+.button-style:hover{
+    transition: 0.2s;
+    box-shadow: 0px 0px 10px 1px;
+    background-color: #ffec99;
+    cursor: pointer;
+    color: green;
+}
+#result-container{
+    width:100%;  
+    padding:30px;        
+}
+#result-container ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.line{
+    color:white;
+    font-size: 30px;
+    padding: 10px 30px;
+    border: 1px dashed white;
+    margin: 5px;
+    flex-grow: 1;
+    text-align: center;
+}
+.line:hover{
+    transition: 0.3s;
+    border-style: solid;
+    background-color: red;
+}

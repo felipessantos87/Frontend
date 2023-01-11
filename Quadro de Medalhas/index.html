@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quadro de Medalhas">
+  <link rel="icon" href="./src/img/faveicon.ico"/>
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;500&display=swap" rel="stylesheet">
+  <title>Quadro de Medalhas</title>
+</head>
+
+<body>
+  <header>
+    <figure><img class="logo" src="src/img/logo.png" alt=""></figure>
+  </header>
+    <div class="container">
+    <div id="filtros" class="container--filtros">
+    <div class="busca">
+    <span class="filtros--label">Pesquisa</span>
+    <input id="inputPesquisar" type="text" placeholder="Pesquisar por país">
+    <span class="filtros--ex">Ex: Brasil</span>
+  </div>
+    <button id="btnPesquisar" type="submit">Pesquisar</button>
+  </div>
+  </div>
+  <main>
+    <div class="table--scroll">
+  <table>
+  <thead>
+    <tr class="head">
+    <th><span name="ranking" class="text">Posição</span></th>
+    <th><span name="country" class="text">País</span></th>
+    <th><span name="gold" class="text">Ouro</span></th>
+    <th><span name="medal_silver" class="text">Prata</span></th>
+    <th><span name="medal_bronze" class="text">Bronze</span></th>
+    <th><span name="total" class="text">Total</span></th>
+  </tr>
+  </thead>
+    <tbody class="table--body">
+  </tbody>
+  </table>
+  </div>
+  </main>
+  <script src="src/js/script.js" type="module" defer></script>
+</body>
+</html>

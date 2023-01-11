@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box; 
+ }
+ body{
+    font-family: 'Inter', sans-serif;    
+ }
+ img{
+     max-width: 100%;
+     display: flex;
+ }
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+}
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+    
+}
+.menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+ 
+}
+.logo{
+   color:#000000;
+   width: 119px;
+   height: 29px;
+   left: 130px;
+   top: 25px;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+}
+.BoxMain{
+    display:flex;
+    justify-content: flex-start;
+    width:100%;
+    gap:16px;
+    margin: auto;
+    align-items: center;
+    
+}
+.boxItem {
+    width: 374px;
+    height: 500px;
+    left: 130px;
+    top: 114px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin: 16px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.button{
+    background-color: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+   display: block;
+   width: 282px;
+   height: 207px;
+   left: 173px;
+   top:157px;
+}
+.center2{
+    display: block;
+    width: 282px;
+    height: 207px;
+    left: 567px;
+    top:157px;
+  
+}   
+.center3{
+   display: block;
+   width: 282px;
+   height: 207px;
+   left: 964px;
+   top: 157px;
+  
+}
+.center4{
+    display: block;
+    width:282px;
+    height: 207px;
+    left: 1366px;
+    top: 157px;
+    
+}
+.center5{
+    display: block;
+    width: 168px;
+    height: 168px;
+    left: 57px;
+    top: 20px;
+}
+.center6{
+    display: block;
+    width: 199px;
+    height: 199px;
+    left: 613px;
+    top: 699px;
+}
+.center7{
+    display: block;
+    width: 237x;
+    height: 237px;
+    left: 22px;
+    top: -15px;
+}
+.center8{
+    display: block;
+    width: 210px;
+    height: 210px;
+    left: 1394px;
+    top: 699px;
+}

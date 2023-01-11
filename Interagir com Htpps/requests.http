@@ -1,0 +1,37 @@
+GET https://www.w3.org/People/Berners-Lee/
+###
+GET https://rickandmortyapi.com/api/character/2 
+###
+GET https://rickandmortyapi.com/api
+###
+GET https://rickandmortyapi.com/api/character
+###
+GET https://rickandmortyapi.com/api/character/?page=19
+###
+GET https://rickandmortyapi.com/api/character
+###
+GET https://rickandmortyapi.com/api/character/2
+###
+GET https://rickandmortyapi.com/api/character/1,183
+###
+GET https://rickandmortyapi.com/api/character/?name=rick&status=alive
+###
+GET https://rickandmortyapi.com/api/location
+###
+GET https://rickandmortyapi.com/api/location/3
+###
+GET https://rickandmortyapi.com/api/location/3,21
+###
+GET https://rickandmortyapi.com/api/episode
+###
+GET https://rickandmortyapi.com/api/episode/28
+###
+GET https://rickandmortyapi.com/api/episode/10,28
+###
+GET https://pokeapi.co/api/v2/pokemon/ditto
+###
+GET https://api.iconfinder.com/crossdomain.xml 
+###
+GET https://api.artic.edu/api/v1/artworks/129884
+###
+GET https://api.artic.edu/api/v1/artworks
