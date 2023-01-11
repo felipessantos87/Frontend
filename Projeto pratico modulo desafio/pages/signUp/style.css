@@ -1,0 +1,66 @@
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 35%;
+    margin-left: 130px;
+}
+.signUp-button{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 40px;
+   
+}
+.delete{
+    margin-top: 5px;
+    background-color: #FB0615A6;
+}
+img{
+    width: 720px;
+    height: 900px;
+    
+}
+input {
+    width: 476px;
+    height: 51px;
+    padding: 5px;
+    margin-bottom: 16px;
+    
+    background-color: #E8E8E8;
+    background: #FDFAFA;
+    border: 1px solid #E8E8E8;
+
+}
+button{
+    width: 475px;
+    height: 50px;
+    margin-top: 72px;
+    border-radius: 8px;
+
+    background: #04C45C;
+    color: #FFFFFF;
+    border: 1px solid ;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+
+    margin-top: 76px;
+    font-size: 16px;
+    font-weight: 400;      
+    line-height: 18.75px;
+    
+}
+a{
+    color: #1972A8;
+    cursor: pointer;
+}

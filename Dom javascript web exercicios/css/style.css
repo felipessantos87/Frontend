@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.font-size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.font-size div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.purple {
+    background-color: purple;
+}
+.black {
+    background-color: black;
+}
+p {
+    padding: 0 125px;
+    text-align: justify;
+}

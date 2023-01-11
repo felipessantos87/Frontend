@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>KONTACTS</h1>
+            <a href="../../index.html"><img src="../../assets/Vector.svg" alt="">logout</a>
+        </header>
+        <main>
+            <button class="add-contact">Adicionar</button>
+            <div class="table">
+                <table>
+                    <tr class="cabecalho">
+                        <td class="campo">Nome</td>
+                        <td class="campo">Email</td>
+                        <td class="campo">Telefone</td>
+                        <td class="campo"></td>
+                    </tr>
+                    <tr class="contato" id="1">
+                        <td class="campo">Claudia M. Sousa</td>
+                        <td class="campo">claudia@teste.com.br</td>
+                        <td class="campo">(99)9999-9999</td>
+                        <td class="trash"><img src="../../assets/Icon-Trash.svg" alt="lixeira"></td>
+                    </tr>
+                    <tr class="contato" id="2">
+                        <td class="campo">João Santos</td>
+                        <td class="campo">joao@teste.com.br</td>
+                        <td class="campo">(99)9999-9999</td>
+                        <td class="trash"><img src="../../assets/Icon-Trash.svg" alt="lixeira"></td>
+                    </tr>
+                    <tr class="contato" id="3">
+                        <td class="campo">Pedro Henrique</td>
+                        <td class="campo">pedro.henrque@teste.com.br</td>
+                        <td class="campo">(99)9999-9999</td>
+                        <td class="trash"><img src="../../assets/Icon-Trash.svg" alt="lixeira"></td>
+                    </tr>
+                    <tr class="contato" id="4">
+                        <td class="campo">Marina Tavares</td>
+                        <td class="campo">marina_tavares@teste.com.br</td>
+                        <td class="campo">(99)9999-9999</td>
+                        <td class="trash"><img src="../../assets/Icon-Trash.svg" alt="lixeira"></td>
+                    </tr>
+                    <tr class="contato" id="5">
+                        <td class="campo">Daniel Lopes</td>
+                        <td class="campo">daniel.lopes@cubos.academy</td>
+                        <td class="campo">(99)9999-9999</td>
+                        <td class="trash"><img src="../../assets/Icon-Trash.svg" alt="lixeira"></td>
+                    </tr>
+                    <tr class="contato" id="6">
+                        <td class="campo">Guido Cerqueira</td>
+                        <td class="campo">guido.cerqueira@cubos.academy</td>
+                        <td class="campo">(99)9999-9999</td>
+                        <td class="trash"><img src="../../assets/Icon-Trash.svg" alt="lixeira"></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <div class="modal none">
+            <div class="modal-delete none">
+                <h2>Confirma a exclusão?</h2>
+                <h3>Deseja excluir o contato?</h3>
+                <button class="btn-delete">EXCLUIR</button>
+                <button class="btn-cancel">CANCELAR</button>
+            </div>
+            <div class="modal-new none">
+                <h2>Novo Contato</h2>
+                <input type="text" name="inputNome" id="input-name" placeholder="Nome">
+                <input type="email" name="inputEmail" id="input-email" placeholder="E-mail">
+                <input type="number" name="inputPhone" id="input-phone" placeholder="Telefone">
+                <button class="btn-add">ADICIONAR</button>
+                <button class="btn-clean">LIMPAR</button>
+                <button class="btn-close">FECHAR</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
