@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ex1</title>
+</head>
+<body>
+    <form>
+        <div class="line">
+            <label for="input-name">Nome</label>
+            <input id="input-name" type="text" placeholder="Digite o seu nome" required>
+        </div>
+
+        <div class="line">
+            <label for="input-email">E-mail</label>
+            <input id="input-email" type="email" placeholder="Digite o seu e-mail" required>
+        </div>
+        
+        <div class="line">
+            <label for="input-age">Idade</label>
+            <input min="18" max="100" id="input-age" type="number" placeholder="Digite sua idade" required>
+        </div>
+
+        <div class="line">
+            <label for="input-password">Senha</label>
+            <input minlength="8" 
+            maxlength="16" 
+            id="input-password" 
+            type="password" 
+            placeholder="Digite sua senha" 
+            required>
+        </div>
+
+        <div class="line">
+            <h3>Escolha o período</h3>
+                <div>
+                    <input type="radio" 
+                    id="morning" 
+                    name="period" 
+                    value="morning" 
+                    checked>
+                    <label for="morning">Manhã</label>
+                </div>
+                
+                <div>
+                    <input type="radio" 
+                    id="afternoon" 
+                    name="period" 
+                    value="afternoon">
+                    <label for="afternoon">Tarde</label>
+                </div>
+                
+                <div>
+                    <input type="radio" 
+                    id="nigth" 
+                    name="period" 
+                    value="nigth">
+                    <label for="nigth">Noite</label>
+                </div>
+        </div>
+
+        <div class="line">
+            <h3>Escolha os cursos</h3>
+            <div>
+                <input type="checkbox" 
+                id="check-math" 
+                name="math">
+                <label for="check-math">Matemática</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" 
+                id="check-it" 
+                name="technology">
+                <label for="check-it">Tecnologia</label>
+            </div>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+    
+   
+</body>
+
+<script type="text/javascript"  src="./js/script.js"></script>
+</html>

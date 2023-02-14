@@ -1,0 +1,19 @@
+h1{
+    color: purple;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+}
+
+.logo{
+    background-color: purple;
+    padding: 8px;
+    border-radius: 50%;
+
+    width: 200px;
+
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    width: 200px;
+    height: 56px;
+    font-size: 20px;
+    cursor: pointer;
+}

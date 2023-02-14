@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+button {
+    border: none;
+}
+.btn-sign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 220px;
+    height: 48px;
+    margin: 10px;
+    padding: 0 16px;
+
+    background-color: rgb(205, 18, 18);
+    color: white;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+.success {
+    background-color: green;
+    color: white;
+}
+.disable {
+    background-color: gray;
+    color: rgb(64, 61, 61);
+}

@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+
+strong {
+    display: block;
+}
+
+.user {
+    color:black;
+}
+
+.user-inactive {
+    color: gray;
+}
+
+.user-deleted {
+    color:red;
+}
+
+.font-22 {
+    font-size: 22px;
+}
